@@ -1,0 +1,1 @@
+# kamerali-plaka-tanimali-otopark-otomasyonu
