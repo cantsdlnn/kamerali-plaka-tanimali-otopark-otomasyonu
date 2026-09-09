@@ -22,9 +22,9 @@
       },
       "OpenCvSharp4": {
         "type": "Direct",
-        "requested": "[4.13.0.20260427, )",
-        "resolved": "4.13.0.20260427",
-        "contentHash": "2+bL0ID2B+IgGzSJjQ2OB8OW31asDSpweHKH3BPZajuG1Q9Yhg7yCZ9pdC/SHlytIOfGAhRFokbnuCVVwUoMWA==",
+        "requested": "[4.13.0.20260627, )",
+        "resolved": "4.13.0.20260627",
+        "contentHash": "nYk95jkyYY9f0sF5KqZ3OB1SWkmqsfV7eN0ROiQds/rxpSn0v1G0QIedMbwuqbdPhvQnOIG2DDmpkLnHEJMh8Q==",
         "dependencies": {
           "System.Memory": "4.6.3"
         }
