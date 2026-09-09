@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PlakaTanimaliOtoparkOtomasyonu/PlakaTanimaliOtoparkOtomasyonu.csproj" />
+  <Project Path="PlakaTanimaliOtoparkOtomasyonu.Tests/PlakaTanimaliOtoparkOtomasyonu.Tests.csproj" />
+</Solution>

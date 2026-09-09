@@ -1,0 +1,61 @@
+# Visual Studio / .NET
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+artifacts/
+
+# Python
+**/.venv/
+**/venv/
+**/env/
+**/__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.EasyOCR/
+.torch/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local.config
+App.config.local
+
+# SQL Server local data and backups
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+**/Resources/plaka_giris_*.jpg
+**/Resources/plaka_okuma_*.jpg
+**/Resources/plaka_cikis_*.jpg
+**/Resources/plaka_*.png
+
+# Local build/package outputs
+*.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
