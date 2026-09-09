@@ -4,16 +4,55 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    open-pull-requests-limit: 5
+      time: "07:00"
+      timezone: Europe/Istanbul
+    open-pull-requests-limit: 1
+    groups:
+      routine-nuget-updates:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
 
   - package-ecosystem: pip
     directory: /PythonPlateReader
     schedule:
       interval: monthly
-    open-pull-requests-limit: 5
+      time: "07:15"
+      timezone: Europe/Istanbul
+    open-pull-requests-limit: 1
+    groups:
+      routine-python-updates:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
-    open-pull-requests-limit: 5
+      time: "07:30"
+      timezone: Europe/Istanbul
+    open-pull-requests-limit: 1
+    groups:
+      routine-action-updates:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
